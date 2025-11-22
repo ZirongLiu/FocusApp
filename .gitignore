@@ -1,0 +1,23 @@
+# 依赖目录 (千万不要上传这个，超级大)
+node_modules/
+
+# 打包输出目录 (每次构建都会变，不需要上传代码库，我们在 Release 里传)
+dist/
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 环境变量 (如果有的话，防止泄露密钥)
+.env
+.env.local
+
+# 编辑器配置
+.vscode/
+.idea/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
